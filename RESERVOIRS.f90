@@ -67,7 +67,7 @@ module RESERVOIRS
      
      ! Loads the connection length for each cell from the connection length file
      allocate (Lc_cell(NC_PL))
-     open  (iu, file='connection_length')
+     open  (iu, file='CONNECTION_LENGTH')
      read  (iu, *) Lc_cell
      close (iu)
 
